@@ -1,0 +1,8 @@
+# requests: Pollinations API calls (script_writer, metadata).
+# faster-whisper: stage 1 transcription (sourceRead). CPU int8 — no CUDA needed.
+#
+# Install into a FRESH venv, not into an env with Coqui/pinned numpy:
+#   python -m venv .venv && .venv\Scripts\activate && pip install -r requirements.txt
+requests>=2.28
+faster-whisper>=1.0
+gradio_client>=1.0

@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# --- secrets (never commit) ---
+# .env
+src/.env
+*.pem
+*.key
+
+# --- pipeline outputs (regenerated; huge) ---
+output/
+src/voice_out/
+src/voice_cache/
+src/data/
+src/source_work/
+*.wav
+*.mp3
+*.mp4
+*.mkv
+*.avi
+
+# --- OS / editors ---
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+*.swp
